@@ -2,9 +2,9 @@
   "name": "jddriver",
   "version": "0.1.0",
   "description": "jdlingyu.net crawler",
-  "main": "index.js",
+  "main": "jddriver.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
