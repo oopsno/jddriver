@@ -4,7 +4,7 @@
   "description": "jdlingyu.net crawler",
   "main": "jddriver.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "mocha"
   },
   "bin": {
     "prprman": "prprman.js"
@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/oopsno/jddriver#readme",
   "dependencies": {
-    "log4js": "^0.6.29"
+    "log4js": "^0.6.29",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
   }
 }
