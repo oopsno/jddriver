@@ -1,10 +1,13 @@
 {
-  "name": "jddriver",
+  "name": "prprman",
   "version": "0.1.0",
   "description": "jdlingyu.net crawler",
   "main": "jddriver.js",
   "scripts": {
     "test": "node test/test.js"
+  },
+  "bin": {
+    "prprman": "prprman.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/oopsno/jddriver/issues"
   },
-  "homepage": "https://github.com/oopsno/jddriver#readme"
+  "homepage": "https://github.com/oopsno/jddriver#readme",
+  "dependencies": {
+    "log4js": "^0.6.29"
+  }
 }
