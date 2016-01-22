@@ -1,8 +1,11 @@
 var spider = require('./spider.js');
+var log4js = require('log4js');
 const home_url = 'http://www.jdlingyu.net/';
 
+var logger = log4js.getLogger('spider.jdlingyu');
+
 function find_all_image(html) {
-  var regex = /http:\/\/www\.jdlingyu\.net\/wp-content\/uploads\/[-_\/]+\.jpg/ig;
+  var regex = /http:\/\/www\.jdlingyu\.net\/wp-content\/uploads\/[0-9-_\/]+\.jpg/ig;
   var images = spider.findall(regex, html, function (m) {
     return m[0];
   });
