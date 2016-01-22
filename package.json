@@ -2,7 +2,7 @@
   "name": "prprman",
   "version": "0.1.0",
   "description": "jdlingyu.net crawler",
-  "main": "jddriver.js",
+  "main": "prprman.js",
   "scripts": {
     "test": "mocha"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oopsno/jddriver.git"
+    "url": "git+https://github.com/oopsno/prprman.git"
   },
   "keywords": [
     "crawler"
@@ -19,9 +19,9 @@
   "author": "",
   "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/oopsno/jddriver/issues"
+    "url": "https://github.co/oopsno/prprman/issues"
   },
-  "homepage": "https://github.com/oopsno/jddriver#readme",
+  "homepage": "https://github.com/oopsno/prprman#readme",
   "dependencies": {
     "log4js": "^0.6.29",
     "lokijs": "^1.3.11",
