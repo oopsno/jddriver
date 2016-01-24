@@ -38,4 +38,4 @@ function init() {
 exports.init = init;
 exports.root = prpr_root;
 exports.index = prpr_index;
-
+exports.spiders = path.resolve(__filename, '../../spider');
