@@ -35,7 +35,13 @@ function init() {
   init_configuration();
 }
 
+function load_configuration() {
+  var cfg = fs.readFileSync(prpr_config);
+  return JSON.parse(cfg);
+}
+
 exports.init = init;
 exports.root = prpr_root;
 exports.index = prpr_index;
 exports.spiders = path.resolve(__filename, '../../spider');
+exports.load_cfg = load_configuration;
