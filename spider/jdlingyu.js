@@ -1,5 +1,6 @@
 var spider = require('./spider.js');
 var log4js = require('log4js');
+const module_name = 'jdlingyu';
 const home_url = 'http://www.jdlingyu.net/';
 
 var logger = log4js.getLogger('spider.jdlingyu');
@@ -37,6 +38,8 @@ function scan_list_page(n) {
   spider.fetch_html(url, find_all_title);
 }
 
+/** exports module name */
+exports.name = module_name;
 exports.home_url = home_url;
 exports.page_url = page_url;
 exports.scan_list_page = scan_list_page;
